@@ -17,7 +17,7 @@ export default function Classes() {
         </div>
 
         <div className="flex m-4">
-            <Button className="m-auto border-2 border-black">Class Schedule</Button>
+            <Button className="m-auto border-2 border-black bg-pink-500 hover:bg-pink-700 text-white transition-transform transform hover:scale-110">Class Schedule</Button>
         </div>
         </div>
     )

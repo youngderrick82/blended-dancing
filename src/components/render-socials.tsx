@@ -16,7 +16,7 @@ export default function RenderSocials({ social }: RenderSocialsProps) {
                 <div className="p-2">
                     <div className="">{social.image}</div>
                 </div>
-                <div className="m-auto w-fit">{social.text}</div>
+                <div className="m-auto w-fit font-bold">{social.text}</div>
             </Link>
         </div>
     );

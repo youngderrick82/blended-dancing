@@ -5,6 +5,7 @@
 .body {
     background: #fffcfc;
     color: hsl(6, 79%, 91%);
+    color: #fadad6;
 }
 
 @layer base {

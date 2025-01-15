@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Blended Dance Studios Website
+Welcome to the Blended Dance Studios website repository. This project is a comprehensive redesign of the existing Blended Dance Studios website, aiming to enhance user experience, modernize the design, and improve functionality.
 
-## Getting Started
+## Project Overview
+The objective of this project is to create a dynamic, user-friendly, and aesthetically pleasing website for Blended Dance Studios. The new design will feature:
 
-First, run the development server:
+  * **Modern Design Principles:** Implementing a sleek and elegant design to reflect the studio's brand identity.
 
+  * **Responsive Layout:** Ensuring optimal viewing and interaction across a wide range of devices.
+
+  * **Enhanced Navigation:** Improving the structure to provide easy access to information about classes, pricing, instructors, and contact details.
+
+## Technologies Used
+* **Framework:** Next.js
+
+* **Language:** TypeScript
+
+* **Styling:**  Tailwind CSS
+
+* **Fonts:** Integration of elegant and modern fonts such as Cormorant Garamond and Playfair Display.
+
+## Features
+**Home Page:** An engaging landing page with a welcoming message and an overview of the studio's offerings.
+
+**About Us:** Detailed information about the studio's mission, history, and team.
+
+**Classes:** A comprehensive list of available classes, schedules, and instructor bios.
+
+**Pricing:** Clear and concise information on class fees, membership options, and any available discounts.
+
+**Contact Us:** A dedicated page with contact information, a location map, and a contact form for inquiries.
+
+## Installation and Setup
+To run this project locally:
+
+Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/youngderrick82/blended-dance-studios.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Navigate to the project directory:
+```bash
+cd blended-dance-studios
+```
+Install dependencies:
+```bash
+npm install
+```
+Run the development server:
+```bash
+npm run dev
+```
+Open http://localhost:3000 to view the website in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your proposed changes. Ensure that your code adheres to the project's coding standards and includes appropriate documentation.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+This project is licensed under the MIT License. See the LICENSE file for more information.
